@@ -6,5 +6,9 @@ int main(){
     sort.PrintArray(false);
     sort.BubbleSort();
     sort.PrintArray(true);
+    sort.InsertionSort();
+    sort.PrintArray(true);
+    sort.RadixSort();
+    sort.PrintArray(true);
     return 0;
 }

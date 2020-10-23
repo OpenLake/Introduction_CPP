@@ -1,7 +1,7 @@
 # Introduction_CPP
 
 ## How to compile: 
-g++ -g main.cpp Sorting/sorting.cpp Sorting/bubble.cpp
+g++ -g main.cpp Sorting/sorting.cpp Sorting/bubble.cpp Sorting/insertion.cpp Sorting/radix.cpp
 
 ## Contributing Guidelines
 
