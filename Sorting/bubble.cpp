@@ -1,5 +1,12 @@
 #include "sorting.hpp"
 
+/**
+ * Sorts the array using buuble sort algorithm.
+ * 
+ * Inputs: null
+ * 
+ * Returns: null
+ */
 void Sort::BubbleSort(){
     std::cout<<"Sorting the array using bubble sort\n";
     sorted.clear();

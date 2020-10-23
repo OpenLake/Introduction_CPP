@@ -1,5 +1,12 @@
 #include "sorting.hpp"
 
+/**
+ * Take an array as input from the user to be used afterwards.
+ * 
+ * Inputs: null
+ * 
+ * Returns: null
+ */
 void Sort::GetInput(){
     int len;
     std::cout << "Length of array? : ";
@@ -12,6 +19,9 @@ void Sort::GetInput(){
     }
 }
 
+/**
+ * Print.
+ */
 void Sort::PrintArray(bool sortedArray){
     std::cout<< ((sortedArray)? "Sorted Array : " : "Unsorted Array : ");
     f(i, ((sortedArray) ? sorted.size(): unsorted.size()))

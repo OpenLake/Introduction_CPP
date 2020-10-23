@@ -1,5 +1,8 @@
 #include "sorting.hpp"
 
+/**
+ * Documentation should go here
+ */
 int pow(int base, int exp){
     int ret = 1;
     
@@ -9,6 +12,9 @@ int pow(int base, int exp){
     return ret;
 }
 
+/**
+ * Documentation should go here
+ */
 int getMax(std::vector<int> input){
     int maxVal = input[0];
     f(i, input.size())
@@ -17,6 +23,9 @@ int getMax(std::vector<int> input){
     return maxVal;
 }
 
+/**
+ * Documentation should go here
+ */
 std::vector<int> sortByDigit(std::vector<int> input, int digit){
 
     std::vector<int> buckets[10];
@@ -35,6 +44,10 @@ std::vector<int> sortByDigit(std::vector<int> input, int digit){
     return result;
 }
 
+
+/**
+ * Documentation should go here
+ */
 void Sort::RadixSort(){
     std::cout<<"Sorting the array using Radix sort.\n";
     sorted.clear();
