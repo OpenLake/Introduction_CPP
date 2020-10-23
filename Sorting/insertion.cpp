@@ -1,7 +1,7 @@
 #include "sorting.hpp"
 
 void Sort::InsertionSort(){
-    std::cout<<"Sorting the array using insertion sort.";
+    std::cout<<"Sorting the array using insertion sort.\n";
 
     f(i, unsorted.size())
         sorted.push_back(unsorted[i]);

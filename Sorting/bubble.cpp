@@ -1,7 +1,7 @@
 #include "sorting.hpp"
 
 void Sort::BubbleSort(){
-    std::cout<<"Sorting the array using bubble sort";
+    std::cout<<"Sorting the array using bubble sort\n";
     sorted.clear();
 
     f(i, unsorted.size())

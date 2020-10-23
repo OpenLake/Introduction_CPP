@@ -36,7 +36,7 @@ std::vector<int> sortByDigit(std::vector<int> input, int digit){
 }
 
 void Sort::RadixSort(){
-    std::cout<<"Sorting the array using Radix sort.";
+    std::cout<<"Sorting the array using Radix sort.\n";
     sorted.clear();
 
     int maxval = getMax(unsorted);
