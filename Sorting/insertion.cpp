@@ -1,5 +1,8 @@
 #include "sorting.hpp"
 
+/**
+ * Documentation should go here.
+ */
 void Sort::InsertionSort(){
     std::cout<<"Sorting the array using insertion sort.\n";
 
