@@ -55,8 +55,11 @@
      }
  }
 
- void Sort::MergeSort(int low = 0, int high = unsorted.size()-1)
+ void Sort::MergeSort(int low = 0, int high = -1)
  {
+     if(high == -1)
+       high = unsorted.size() - 1;
+
      while(sorted.size() < unsorted.size())
      {
        sorted.push_back(0);
