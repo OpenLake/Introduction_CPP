@@ -7,6 +7,8 @@
  */
  void Sort::Merge(int low, int mid, int high)
  {
+     while(sorted.size())
+
      std::vector<int> L;
      std::vector<int> R;
 
@@ -57,6 +59,11 @@
 
  void Sort::MergeSort(int low = 0, int high = unsorted.size()-1)
  {
+     while(sorted.size() < unsorted.size())
+     {
+       sorted.push_back(0);
+     }
+
      if(high > low)
      {
          int mid = (low + high)/2;
