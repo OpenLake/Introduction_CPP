@@ -8,10 +8,10 @@
  * Returns: null
  */
  void heapify(std::vector<int>sorted,int n,int j){
-   int largest =i;
-   int left_child=2*i+1;
-   int right_child=2*i+2;
-   if (left_child<n && sorted[left_child])>sorted[largest]){
+   int largest =j;
+   int left_child=2*j+1;
+   int right_child=2*j+2;
+   if (left_child<n && sorted[left_child]>sorted[largest]){
      largest=left_child;
    }
    if (right_child<n && sorted[right_child]>sorted[largest]){
