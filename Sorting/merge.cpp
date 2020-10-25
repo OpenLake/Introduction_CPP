@@ -2,7 +2,7 @@
 
 /**
  * Sort the array using merge sort algorithm.
- * 
+ *
  * Inputs: null
  */
 void Sort::MergeSort(){
