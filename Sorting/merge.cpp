@@ -7,8 +7,6 @@
  */
  void Sort::Merge(int low, int mid, int high)
  {
-     while(sorted.size())
-
      std::vector<int> L;
      std::vector<int> R;
 
