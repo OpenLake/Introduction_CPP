@@ -20,7 +20,12 @@ void Sort::GetInput(){
 }
 
 /**
- * Print.
+ * Depending upon the boolean input,prints the corresponding array separated by comma.When the input is true
+ * it prints the sorted array and when it is false it prints the unsorted array.
+ * 
+ * Inputs: boolean value True or False
+ * 
+ * Returns: null
  */
 void Sort::PrintArray(bool sortedArray){
     std::cout<< ((sortedArray)? "Sorted Array : " : "Unsorted Array : ");
