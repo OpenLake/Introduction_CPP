@@ -19,7 +19,8 @@ public:
     //comparison
     void BubbleSort();
     void InsertionSort();
-    void MergeSort();
+    void MergeSort(int,int);
+    void Merge(int,int,int);
     void QuickSort();
     void HeapSort();
 
