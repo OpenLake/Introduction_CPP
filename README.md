@@ -9,7 +9,7 @@ You must put your name and roll number as comment in the pull request to make su
 There are 4 types of pull requests anyone contributing to the code should submit.
 The type of pull request will be mentioned by the reviewers.
 
-### Tyep 1:
+### Type 1:
 
 Contain any contructive change to the repo including any single character changes.
 
