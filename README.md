@@ -21,7 +21,7 @@ Contain changes in the documentation of at least one function and adhere to the 
 
 Contain at least some changes to code. Including optimizations.
 
-### Type 4
+### Type 4:
 
 Full implementations of incomplete functions or improvement in the compilation command.
 
