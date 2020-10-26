@@ -1,7 +1,7 @@
 #include "sorting.hpp"
 
 /**
- * Sort the bucket sort algorithm.
+ * Sorts the array using bucket sort algorithm.
  * 
  * Inputs: null
  * 
