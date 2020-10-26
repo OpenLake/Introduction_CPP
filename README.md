@@ -1,15 +1,15 @@
 # Introduction_CPP
 
-## How to compile: 
+## How to compile:
 g++ -g main.cpp Sorting/* Graph/* -o OpenLake.out
 
 ## Contributing Guidelines:
-Once you submit a pull request it must be reviewed by at least 2 mentors before being merged.
+Once you submit a pull request, it must be reviewed by at least 2 mentors before being merged.
 You must put your name and roll number as comment in the pull request to make sure that it is reflected in the leaderboard.
 There are 4 types of pull requests anyone contributing to the code should submit.
 The type of pull request will be mentioned by the reviewers.
 
-### Tyep 1:
+### Type 1:
 
 Contain any constructive change to the repo including any single character changes.
 
