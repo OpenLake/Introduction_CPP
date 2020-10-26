@@ -5,6 +5,7 @@
  *
  * Inputs: null
  */
+<<<<<<< HEAD
  std::vector<int> arr;
  void Merge(int low, int mid, int high)
  {
@@ -73,3 +74,8 @@
 
      sorted = arr;
  }
+=======
+void Sort::MergeSort(){
+    std::cout<<"[TODO @ Sorting/merge.cpp] MergeSort() needs to be implemented.\n";
+}
+>>>>>>> upstream/main
