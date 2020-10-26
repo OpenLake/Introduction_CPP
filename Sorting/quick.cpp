@@ -7,6 +7,7 @@
  *
  * Returns: null
  */
+<<<<<<< HEAD
 
  //QUICK SORT ALGORITHM
  int cnt{};
@@ -42,4 +43,8 @@ void Sort::QuickSort(int p, int r){
         QuickSort(q+1, r);
     }
     sorted = arr;
+=======
+void Sort::QuickSort(){
+    std::cout<<"[TODO @ Sorting/quick.cpp] QuickSort() needs to be implemented.\n";
+>>>>>>> upstream/main
 }
