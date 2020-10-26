@@ -1,7 +1,7 @@
 #include "sorting.hpp"
 
 /**
- * Sorts the array using buuble sort algorithm.
+ * Sorts the array using bubble sort algorithm.
  * 
  * Inputs: null
  * 
