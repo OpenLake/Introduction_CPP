@@ -2,9 +2,9 @@
 
 /**
  * Sort the array using quick sort algortihm.
- * 
+ *
  * Inputs: null
- * 
+ *
  * Returns: null
  */
 void Sort::QuickSort(){
