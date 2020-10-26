@@ -1,9 +1,9 @@
 #include "sorting.hpp"
 
 /**
- * array using heap sort algorithm.
+ * Sorts the array using heap sort algorithm.
  * 
- * Inputs:
+ * Inputs: null
  * 
  * Returns: null
  */
