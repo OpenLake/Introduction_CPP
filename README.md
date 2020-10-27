@@ -25,6 +25,6 @@ Contain at least some changes to code. Including optimization.
 
 Full implementations of incomplete functions or improvement in the compilation command.
 
-### Good Luck and Have Fun:
+### Good Luck and Have Fun
 
 Also don't be disappointed if you recieve some strict code reviews. :-)
