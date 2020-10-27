@@ -5,15 +5,17 @@
  */
 int pow(int base, int exp){
     int ret = 1;
-    
+
     f(i,exp)
         ret *= base;
-    
+
     return ret;
 }
 
 /**
- * Documentation should go here
+ * This function returns the maximum value in the input vector.
+ * Inputs: std::vector<int> input
+ * Returns: The maximum value in the input vector
  */
 int getMax(std::vector<int> input){
     int maxVal = input[0];
