@@ -5,7 +5,7 @@
  */
 void Sort::InsertionSort(){
     std::cout<<"Sorting the array using insertion sort.\n";
-
+    sorted.clear();
     f(i, unsorted.size())
         sorted.push_back(unsorted[i]);
 
