@@ -1,14 +1,16 @@
 #include "sorting.hpp"
 
 /**
- * Documentation should go here
+ * Function returns the value of base raised to the power exp.
+ * Inputs : int base, int exp
+ * Returns : base raised to the power exp
  */
 int pow(int base, int exp){
     int ret = 1;
-    
+
     f(i,exp)
         ret *= base;
-    
+
     return ret;
 }
 
