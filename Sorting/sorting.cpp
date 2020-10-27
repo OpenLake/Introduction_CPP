@@ -2,9 +2,9 @@
 
 /**
  * Take an array as input from the user to be used afterwards.
- * 
+ *
  * Inputs: null
- * 
+ *
  * Returns: null
  */
 void Sort::GetInput(){
@@ -27,4 +27,3 @@ void Sort::PrintArray(bool sortedArray){
     f(i, ((sortedArray) ? sorted.size(): unsorted.size()))
         std::cout<< ((sortedArray) ? sorted[i] : unsorted[i]) << ((i<(((sortedArray) ? sorted.size(): unsorted.size())-1)) ? "," : "\n");
 }
-

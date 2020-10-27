@@ -20,7 +20,7 @@ public:
     void BubbleSort();
     void InsertionSort();
     void MergeSort(int,int);
-    void QuickSort();
+    void QuickSort(int, int);
     void HeapSort();
 
     //non comparison
