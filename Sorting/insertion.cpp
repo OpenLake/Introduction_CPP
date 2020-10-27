@@ -1,7 +1,11 @@
 #include "sorting.hpp"
 
 /**
- * Documentation should go here.
+ * Sorts the array using inserstion sort algorithm.
+ *
+ * Inputs: null
+ *
+ * Returns: null
  */
 void Sort::InsertionSort(){
     std::cout<<"Sorting the array using insertion sort.\n";
