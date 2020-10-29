@@ -3,15 +3,15 @@
 /**
  * Documentation should go here
  */
-void Graph::DFS(int node){
+void Graph::BFS(int node){
     int n = graph.size();
     bool visited[n];
-    std::memset(visited, true, sizeof(bool));
-    
+    std::memset(visited, false, sizeof(bool));
+
     std::vector<int> unvisited;
     std::vector<int> result;
 
-    
+
     unvisited.push_back(node);
     while (unvisited.size()!=0)
     {
@@ -31,7 +31,7 @@ void Graph::DFS(int node){
     f(i,result.size())
         std::cout<<result[i]<<", ";
     std::cout<<std::endl;
-    
+
 }
 
 /**
