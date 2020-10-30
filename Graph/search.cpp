@@ -3,7 +3,7 @@
 /**
  * Documentation should go here
  */
-void Graph::BFS(int node){
+void Graph::DFS(int node){
     int n = graph.size();
     bool visited[n];
     std::memset(visited, false, sizeof(bool));
