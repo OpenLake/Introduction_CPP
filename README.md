@@ -19,7 +19,7 @@ Contain changes in the documentation of at least one function and adhere to the 
 
 ### Type 3:
 
-Contain at least some changes to code. Including optimizations.
+Contain at least some changes to code. Including optimization.
 
 ### Type 4:
 
@@ -27,4 +27,4 @@ Full implementations of incomplete functions or improvement in the compilation c
 
 ### Good Luck and Have Fun
 
-Also don't be disappointed if you recieve some strict code reviews. ;-)
+Also don't be disappointed if you recieve some strict code reviews. :-)
